@@ -1,0 +1,469 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.icon-Smsmagicsmsservice:before,
+.icon-Smsmagicsmsservice:before {
+    content: "\f0e0";
+}
+.anchorbutton {
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-decoration: none !important;
+}
+.activeSMSmenu {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid green;
+    color: green !important;
+    text-decoration: none !important;
+}
+.screen_magic_wrapper {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin: 15px 0 10px;
+    padding: 25px 20px;
+}
+.oneHop_wrapper {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    padding: 10px;
+    overflow: auto;
+    margin-top: 15px;
+}
+.div_fields {
+    margin-bottom: 1%;
+}
+.div_fields label {
+    float: left;
+    width: 20%;
+}
+.templatesList th,
+td {
+    padding: 5px;
+}
+.template_form {
+    float: left;
+    width: 55%;
+}
+.templatesList tr:nth-child(odd) {
+    background-color: #F9F9F9;
+}
+.templatesList {
+    margin-top: 10px;
+}
+.clearboth {
+    clear: both;
+}
+.smsediticon {
+    font-size: 20px;
+}
+.smstemplatebtn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+}
+.smsRequired {
+    color: #ff0000;
+}
+/*.sms-form input[type='text'], .sms-form textarea{
+	width: 60%;
+}*/
+
+.sms-form select {
+    width: auto;
+    min-width: 20%;
+}
+#manage_sms select {
+    width: auto;
+    min-width: 15.5%;
+}
+
+.formdescription {
+    font-style: italic;
+    margin-left: 20%;
+}
+.template_legends {
+    float: left;
+    width: 45%;
+}
+.lagendTabs {
+    background-color: #f5f8f9;
+    border: 1px solid #cccccc;
+    list-style: outside none none;
+    padding: 0;
+}
+.lagendTabs label {
+    width: 50%;
+}
+.lagendTabs > li:first-child {
+    background-color: #eff1f2;
+    font-weight: bold;
+    padding: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.lagendTabs > li {
+    border-bottom: 1px solid #cccccc;
+    padding: 5px 10px;
+}
+/* added at 23 May  */
+
+.form-wrapper {
+    font-size: 13px;
+}
+.form-wrapper ul {
+    margin-top: 5px;
+}
+.form-wrapper span {
+    font-weight: bold;
+}
+.anchorbutton {
+    border: 1px solid #3DABC1;
+    background: #3DABC1;
+    color: #fff !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none !important;
+}
+.activeSMSmenu {
+    background: #236977;
+    border: 1px solid #236977;
+}
+.bootstrap .alert {
+    margin-bottom: 10px;
+}
+.bootstrap .form-horizontal .control-label {
+    text-align: left;
+}
+#SEND_SMS_API, #ADMIN_MOBILE {
+    width: 350px;
+}
+.panel-footer [class^="process-icon-"] {
+    font-size: 16px;
+    display: inline;
+    padding-right: 5px;
+}
+.bootstrap .panel-footer .btn.btn-default,
+.bootstrap .panel-footer .btn-default:focus,
+.bootstrap .btn-default {
+    background: #268FA4;
+    border: 1px solid #268FA4;
+    font-size: 14px;
+    color: #fff;
+}
+.bootstrap .panel-footer .btn.btn-default:hover,
+.bootstrap .btn-default:hover,
+.bootstrap .btn-default:focus {
+    border: 1px solid #1B7F93 !important;
+    background: #1B7F93 !important;
+    color: #fff;
+}
+.bootstrap .panel-footer .btn.btn-default i {
+    color: #fff;
+}
+.bootstrap .panel-footer .pull-right {
+    float: left !important;
+}
+.bootstrap .panel .panel-footer {
+    height: 50px;
+}
+.automation_text {
+    width: 200px !important;
+}
+.sms-form input[type='text'],
+.sms-form textarea {
+    width: 400px;
+    /*madhuri*/
+}
+.bootstrap a,
+.icon-edit {
+    color: #268FA4;
+}
+.lagendTabs td {
+    border: 1px solid #ccc;
+}
+.lagendTabs tr:first-child td {
+    background: #F1F1F1;
+}
+.header_row td,
+.header_td {
+    background: #E6E6E6;
+}
+.bootstrap table {
+    width: 100%;
+}
+.btn.btn-default.dropdown-toggle {
+    background: #fff;
+}
+.bootstrap label {
+    font-weight: normal;
+}
+.lagendTabs h4 {
+    font-size: 13px !important;
+}
+@-moz-document url-prefix() {
+    .bootstrap .btn.btn-default.dropdown-toggle {
+        padding: 5px 8px 4px;
+    }
+}
+@media (min-width: 1023px) and (max-width: 1025px) {
+    .template_form {
+        width: 50%;
+    }
+    .template_legends {
+        width: 50%;
+    }
+    .sms-form input[type='text'],
+    .sms-form textarea {
+        width: 330px;
+        /*madhuri*/
+    }
+    .template_legends {
+        font-size: 11px;
+    }
+}
+@media (min-width: 1367px) {
+    .onehopIframe {
+        width: 100%;
+    }
+}
+.onehopIframe {
+    border: none;
+}
+#smsAutomationForms {
+    margin-top: 15px;
+}
+#configurationform {
+    margin-top: 15px;
+}
+form .form-wrapper div:first-child label {
+    width: 100%;
+}
+form .form-wrapper div:first-child label {
+    width: 100%;
+    font-weight: bold;
+}
+#templatetype {
+    float: left;
+    margin-right: 10px;
+}
+#templateplaceholder {
+    float: left;
+}
+.anchorBtn {
+    border-radius: 3px;
+    float: left;
+    margin-left: 10px;
+    padding: 4px;
+    text-decoration: none !important;
+}
+.module_error.alert.alert-danger {
+    margin-top: 15px;
+}
+.defaultForm.form-horizontal {
+    margin-top: 15px;
+}
+.module_confirmation.conf.confirm.alert.alert-success {
+    margin-top: 15px;
+}
+/* welcome page */
+
+.welwrapper {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    font-family: 'Source Sans Pro';
+    line-height: 1.42857143;
+    font-weight: normal;
+    background-color: #fff;
+}
+.welwrapper .container {
+    max-width: 800px;
+}
+.acc_banner {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    background: #f4fcfc;
+}
+.content {
+    width: 800px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.content-inner {
+    padding: 10px 25px 25px 25px;
+    width: 750px;
+}
+.content h3 {
+    font-size: 140%;
+}
+.welwrapper p {
+    font-size: 14px;
+}
+.welwrapper h1,
+.welwrapper h2,
+.welwrapper h3,
+.welwrapper h4,
+.welwrapper h5,
+.welwrapper h6 {
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+}
+.content ul {
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px 0px 15px;
+}
+.content ul li {
+    font-size: 1em;
+    list-style: disc;
+    margin: 0px 0px 8px 0px;
+}
+.content ul.subpoints li {
+    list-style: circle;
+}
+.content ul li i {
+    font-style: italic;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.welwrapper .custom_container {
+    width: 800px;
+    margin: 0px auto;
+    font-family: 'Source Sans Pro';
+}
+.onehop_list {
+    background: #f4fcfc;
+    overflow: hidden;
+    padding: 0 80px;
+    font-family: 14px;
+    padding-bottom: 30px;
+}
+ .onehop_docs {
+    background: #f4fcfc;
+    font-family: 14px;
+    padding: 10px 0 1px 0;
+    margin-bottom: 30px;
+}
+.onehop_list li {
+    background: url(../img/list_bg.png) left center no-repeat;
+    padding-left: 30px;
+    margin: 10px 0;
+    font-size: 20px;
+}
+.onehop_list h2 {
+    color: #f89928;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 27px;
+}
+h2.acc_title {
+    color: #f89928;
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 27px;
+}
+.productdoc_title{
+    color: #288e79 !important;
+}
+.support_title{
+    color: #0091b5 !important;
+}
+.download_sec,
+.contact_info {
+    padding: 0 40px 0 50px;
+}
+.download_sec li {
+    margin: 30px 0;
+    font-size: 18px;
+}
+.download_sec li img {
+    margin-right: 10px;
+}
+.download_sec li a {
+    color: #000000;
+    text-decoration: none;
+}
+.panel-group {
+    padding: 0 40px;
+}
+.panel-group .panel {
+    border: none !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    margin-bottom: 20px;
+}
+.panel-default>.panel-heading {
+    background: none !important;
+    border: none !important;
+    font-family: 'Source Sans Pro' !important;
+    text-transform: capitalize !important;
+    color: #236977 !important;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: none !important;
+}
+#accordion .panel-title a {
+    color: #236977;
+    font-size: 23px;
+    text-decoration: none;
+}
+#accordion .panel-title a .seq_no {
+    background: #f89928;
+    color: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 27px;
+    margin-right: 20px;
+}
+#accordion .panel-title .icon-caret-right,
+#accordion .panel-title .icon-caret-down {
+    color: #f89928;
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 30px !important;
+}
+.contact_info {
+    font-size: 18px;
+    color: #000000;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+.contact_info img {
+    margin-right: 10px;
+}
+.acc_1_list li {
+    font-size: 17px;
+    background: url(../img/bullet.png) left top no-repeat;
+    padding-left: 20px;
+}
+.acc_2_list li {
+    font-size: 17px;
+    margin: 15px 0;
+}
+.acc_3_data {
+    font-size: 17px;
+}
+.acc_3_list li {
+    font-size: 17px;
+    background: url(../img/bullet.png) left center no-repeat;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+.stronger {
+    font-weight: bold;
+}
+.acc_banner img {
+    width:100%;
+}
